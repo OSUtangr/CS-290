@@ -1,3 +1,4 @@
 Hello. This is practice for CS 290 following video after watching it once to twice a day for 4 days.
 
 Attempting proper merge #5
+attempting proper merge #6
