@@ -64,7 +64,7 @@ app.get('/getRequest', function(req,res){
   // in 'context', put the array 'queryParameters' into a new sub-variable 
   //    'dataList' 
 
-  res.render('GetRequest.handlebars', context);
+  res.render('GetRequest', context);
   // render this on the template based on 'GetRequest.handlebars'
   // use variable 'context' to fill in all information
 })
@@ -84,7 +84,7 @@ app.post('/PostRequest', function(req,res){
   }
 
   var context = {};
-  res.render('PostRequest.handlebars', context);
+  res.render('PostRequest', context);
 })
 
 app.post('/post-loopback', function(req,res){
